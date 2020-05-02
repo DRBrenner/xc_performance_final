@@ -13,7 +13,7 @@ This was the capstone project for my UC Davis Data Analytics course designed to 
 - Multiple visualizations
 
 This graphic represents the architecture of the project. This is the original architecture that created the Plotly plots in a previous project (see my repository called race_performance_Project-2). I could not host the original architecture on free hosting sites due to the size of my datasets and contract restrictions with my data supplier.  I reorganized my data to not violate the contract and used links to Tableau Public to host my large dataset for free.  I included images of the most interesting Plotly charts created previously.
-![Results and Goals](/static/images/tools.png "System Architecture")
+![Results and Goals](/static/images/architecture.png "System Architecture")
 
 ### Lessons Learned
 Machine learning was instrumental in determining what to plot to glean insights about my hypothesis (that training and goal setting improves race performance).  I learned I needed to reorganized my data to plot by racer instead of by racer in each race.  Tableau made data visualization quick and easy; however, I found it more straight forward to manipulate my data in Python first.  
