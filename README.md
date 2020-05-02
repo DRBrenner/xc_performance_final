@@ -1,8 +1,30 @@
 # Final Project - Race Performance
 ---
-### Intent
 
-+ Determine how much race day variables factors influence race performance improvement (temp, number of racers, gender, etc.) 
+### Purpose
+This was the capstone project for my UC Davis Data Analytics course designed to practice full stack data visualization development with machine learning. It includes the following:
+- SciKit Learn machine learning
+- Python, NumPy, Pandas, and Jupyter to clean and organize data
+- Tableau Public vizualizations, dashboards, and stories
+- Interative Plotly charts (images)
+- A JavaScript library not covered in class (Granim - watch the image on the home screen change colors)
+- Two datasets (577,000 rows and 1,900,000 rows each)
+- Website utilizing Bootstrap, CSS, and HTML with multiple pages, dropdown menus, and buttons
+- Multiple visualizations
+
+This graphic represents the architecture of the project. This is the original architecture that created the Plotly plots in a previous project (see my repository called race_performance_Project-2). I could not host the original architecture on free hosting sites due to the size of my datasets and contract restrictions with my data supplier.  I reorganized my data to not violate the contract and used links to Tableau Public to host my large dataset for free.  I included images of the most interesting Plotly charts created previously.
+![Results and Goals](/static/images/tools.png "System Architecture")
+
+### Lessons Learned
+Machine learning was instrumental in determining what to plot to glean insights about my hypothesis (that training and goal setting improves race performance).  I learned I needed to reorganized my data to plot by racer instead of by racer in each race.  Tableau made data visualization quick and easy; however, I found it more straight forward to manipulate my data in Python first.  
+
+### To View
+This website can be viewed at [https://drbrenner.github.io/xc_performance_final/](https://drbrenner.github.io/xc_performance_final/ "XC Race Performance Homepage") 
+
+
+### Original Assignment Intent
+
++ Use machine learning to determine how much race day variables factors influence race performance improvement (temp, number of racers, gender, etc.) 
 + Find correlations between individual seasonal race improvements and training log information.
 + Get the results in a format coaches and XCStat staff can view interactively without host costs (Tableau, Amazon AWS?).
 
